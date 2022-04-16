@@ -1,0 +1,29 @@
+import React from "react";
+import Home from "./Home";
+import Skills from "./Skills";
+
+
+function Myskills() {
+  return (
+    <div>
+
+<div className="p-4 pt-16  sm:pt-0 sm:p-0 ">
+<p className="font-custom text-2xl  font-semibold text-left">My Skills</p>
+
+
+<div className="flex flex-wrap  pt-8">
+<Skills>HTML</Skills>
+<Skills>CSS</Skills>
+<Skills>JavaScript</Skills>
+<Skills>React</Skills>
+<Skills>GIT</Skills>
+<Skills>Github</Skills>
+<Skills>Tailwind css</Skills>
+<Skills>Responsive Design </Skills>
+</div></div>
+</div>
+
+  );
+}
+
+export default Myskills;
