@@ -3,7 +3,8 @@ import Home from "./Home";
 import Aboutme from "./Aboutme";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
-import Contact from "./Contact";
+import Contact from "./Contact"
+import Social from "./Social";
 
 
 function App() {
@@ -18,16 +19,12 @@ const[sideBarShow, setSideBarShow] =React.useState(false);
 <Aboutme></Aboutme>
 
 
-
 {sideBarShow &&
-<div  >
+<div >
 <Sidebar  onCancel={()=>setSideBarShow(false)}/>
 </div>
 }
-
-<Contact></Contact>
-
-
+<Social></Social>
 </div>
   );
 }

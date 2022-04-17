@@ -21,18 +21,18 @@ const[sideBarShow, setSideBarShow] =React.useState(false);
 <div className="bg-white drop-shadow-2xl p-6 rounded-lg space-y-6 sm:p-10 sm:mt-10">
   <div>
   <h1 className="font-custom  text-gray-500 font-bold text-sm pb-2">Name</h1>
-<input type="text" className="border border-gray-200 w-full rounded-lg py-2 bg-gray-100 p-2 placeholder:text-gray-400 font-semibold" placeholder="Enter your name"></input>
+<input maxLength={20} type="text" required className="border border-gray-200 w-full rounded-lg py-2 bg-gray-100 p-2 placeholder:text-gray-400 font-semibold" placeholder="Enter your name"></input>
 </div>
 
 
 <div>
 <h1 className="font-custom  text-gray-500 font-bold text-sm pb-2">Email</h1>
-<input  type="email" className="border border-gray-200 w-full rounded-lg py-2 bg-gray-100 p-2 placeholder:text-gray-400 font-semibold" placeholder="Enter your name"></input>
+<input maxLength={50}  type="email" required className="border border-gray-200 w-full rounded-lg py-2 bg-gray-100 p-2 placeholder:text-gray-400 font-semibold" placeholder="Enter your name"></input>
 </div>
 
 <div>
   <h1 className="font-custom  text-gray-500 font-bold text-sm pb-2">Message</h1>
-<input type="text"  className="border border-gray-200 w-full rounded-lg p-2 bg-gray-100 h-40 p-2 placeholder:text-gray-400 font-semibold" placeholder="Enter your message"></input>
+<input maxLength={150} required type="text"  className="border border-gray-200 w-full rounded-lg p-2 bg-gray-100 h-40 p-2 placeholder:text-gray-400 font-semibold" placeholder="Enter your message"></input>
 </div>
 
 <div className="flex justify-end sm:pt-4">

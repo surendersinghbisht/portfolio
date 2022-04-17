@@ -11,10 +11,10 @@ function Navbar(props) {
 </div>
 <GiHamburgerMenu className="mt-8 mr-2 w-8 sm:hidden block  " onClick={props.onClick}  />
 <div className="flex space-x-16 mr-16  hidden sm:block  items-center mt-8  ">
-<button className="font-custom  text-base font-semibold hover:text-yellow-500 tracking-wider">HOME</button>
-<button className="font-custom  text-base font-semibold hover:text-yellow-500 tracking-wider">ABOUT</button>
-<button className="font-custom   text-base font-semibold hover:text-yellow-500 tracking-wider">PROJECTS</button>
-<button className="font-custom  text-base font-semibold hover:text-yellow-500 tracking-wider">CONTACT</button>
+<button className="font-custom  text-base font-semibold hover:text-yellow-400 tracking-wider">HOME</button>
+<button className="font-custom  text-base font-semibold hover:text-yellow-400 tracking-wider">ABOUT</button>
+<button className="font-custom   text-base font-semibold hover:text-yellow-400 tracking-wider">PROJECTS</button>
+<button className="font-custom  text-base font-semibold hover:text-yellow-400 tracking-wider">CONTACT</button>
 </div>
     </div>
   );
