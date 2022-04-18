@@ -20,7 +20,7 @@ function Aboutme() {
   <div className="space-y-4 sm:max-w-6xl ">
   <p className="font-custom text-2xl  font-semibold text-left">Get to know me!</p>
   <P1 className="text-center sm:text-left pt-8">I'm a<span className="text-gray-600 font-bold font-custom"> Frontend Web Developer</span> building the Front-end of Websites and Web Applications for both web and mobile view that leads to the success of the overall project. Check out some of my work in the <span className="text-gray-600 font-bold font-custom">Projects</span> section.</P1>
-  <P1>I discovered my love for coding during my training time at <span className="text-gray-600 font-bold font-custom">CODEYOGI.</span></P1>
+  <P1>I discovered my passion for coding during my training time at <span className="text-gray-600 font-bold font-custom">CODEYOGI.</span></P1>
 <P1 className="text-center sm:text-left">I'm open to <span className="text-gray-600 font-bold font-custom">Job</span> opportunities where I can contribute, learn and grow. You can find me at <span className="text-gray-600 font-bold font-custom">contact.</span>  </P1>
 </div>
 <div className="sm:mt-12 mt-10">
