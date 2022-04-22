@@ -6,27 +6,22 @@ import Sidebar from "./Sidebar";
 import Contact from "./Contact";
 import Social from "./Social";
 import Projects from "./Projects";
+import { BrowserRouter } from "react-router-dom";
 
 
 function App() {
 
-const[sideBarShow, setSideBarShow] =React.useState(false);
 
   return (
+    <BrowserRouter>
     <div>    
-<Navbar onClick={()=>setSideBarShow(true)}  ></Navbar>
-
+<Navbar ></Navbar>
 <Home></Home>
 <Aboutme></Aboutme>
 <Projects></Projects>
 <Social></Social>
-
-{sideBarShow &&
-<div >
-<Sidebar  onCancel={()=>setSideBarShow(false)}/>
 </div>
-}
-</div>
+</BrowserRouter>
   );
 }
 

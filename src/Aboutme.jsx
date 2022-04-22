@@ -2,10 +2,11 @@ import React from "react";
 import P1 from "./P1";
 import Button from "./Button";
 import Myskills from "./Myskills";
+import {HashLink as Link} from 'react-router-hash-link';
 
 function Aboutme() {
   return (
-    <div >
+    <div id='Aboutme'>
 <div className="p-4 pt-20  sm:px-60">
   <div className="flex flex-col items-center space-y-4">
 <p className="font-extrabold font-custom tracking-wide sm:pt-20 text-3xl  sm:text-4xl  text-center sm:text-center ">ABOUT ME</p>
@@ -24,7 +25,7 @@ function Aboutme() {
 <P1 className="text-center sm:text-left">I'm open to <span className="text-gray-600 font-bold font-custom">Job</span> opportunities where I can contribute, learn and grow. You can find me at <span className="text-gray-600 font-bold font-custom">contact.</span>  </P1>
 </div>
 <div className="sm:mt-12 mt-10">
-<Button >CONTACT</Button>
+<Link to="#Social" smooth><Button >CONTACT</Button></Link>
 </div></div>
 <Myskills ></Myskills>
 </div>

@@ -1,10 +1,10 @@
 import React from "react";
 import { ImCancelCircle } from "react-icons/im";
-
+import {HashLink as Link} from 'react-router-hash-link';
 
 function Sidebar(props) {
   return (
-   <div className="shadow-2xl absolute w-full top-2  right-0 w-screen ">
+   <div className="shadow-2xl absolute w-full top-2   right-0 w-screen ">
 <div className="sm:hidden block  flex justify-end sticky">
 <aside  aria-label="Sidebar ">
 
@@ -12,26 +12,26 @@ function Sidebar(props) {
 <ul className="space-y-2">
 <ImCancelCircle className=" mt-2 font-semibold h-4  w-4 mr-2  sm:hidden block flex ml-80 mb-6 " onClick={props.onCancel}></ImCancelCircle>
 <li>
-<a href="#" className="flex items-center  p-2 text-base font-custom text-gray-700 rounded-lg dark:text-white hover:text-yellow-500 dark:hover:bg-gray-700">
-<span className=" font-bold ml-72">HOME</span>
+<a  className="flex items-center  p-2 text-base font-custom text-gray-700 rounded-lg dark:text-white hover:text-yellow-500 dark:hover:bg-gray-700">
+<Link to='#Home' smooth className=" font-bold ml-72">HOME</Link>
 </a>
 </li>
 <hr />
 <li>
-<a href="#" className="flex items-center p-2 text-base font-custom text-gray-700 rounded-lg dark:text-white  dark:hover:bg-gray-700">
-<span className="flex-1 text-right whitespace-nowrap hover:text-yellow-400 font-bold">ABOUT</span>
+<a  className="flex items-center p-2 text-base font-custom text-gray-700 rounded-lg dark:text-white  dark:hover:bg-gray-700">
+<Link to='#Aboutme' smooth  className="flex-1 text-right whitespace-nowrap hover:text-yellow-400 font-bold">ABOUT</Link>
 </a>
 </li>
 <hr />
 <li>
-<a href="#" class="flex items-center p-2 text-base font-custom text-gray-700 text-gray-900 rounded-lg dark:text-white  dark:hover:bg-gray-700">
-<span class="flex-1 text-right  whitespace-nowrap hover:text-yellow-400 font-bold">PROJECTS</span>
+<a  className="flex items-center p-2 text-base font-custom text-gray-700  rounded-lg dark:text-white  dark:hover:bg-gray-700">
+<Link to='#Projects' smooth className="flex-1 text-right  whitespace-nowrap hover:text-yellow-400 font-bold">PROJECTS</Link>
 </a>
 </li>
 <hr />
 <li>
-<a href="#" class="flex items-center p-2 text-base font-custom text-gray-700 rounded-lg dark:text-white  dark:hover:bg-gray-700">
-<span class="flex-1 text-right whitespace-nowrap hover:text-yellow-400 font-bold font-bold">CONTACT</span>
+<a  className="flex items-center p-2 text-base font-custom text-gray-700 rounded-lg dark:text-white  dark:hover:bg-gray-700">
+<Link to='#Social' smooth className="flex-1 text-right whitespace-nowrap hover:text-yellow-400 font-bold font-bold">CONTACT</Link>
 </a>
 </li>
 

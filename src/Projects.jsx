@@ -1,11 +1,12 @@
 import React from "react";
 import Button from "./Button";
 import P1 from "./P1";
+import {HashLink as Link} from 'react-router-hash-link';
 
 function Projects() {
 
   return (
-     
+   <div id='Projects'> 
 <div className="flex flex-col items-center space-y-4 pt-10 p-4 text-center sm:px-14">
 <p className="font-extrabold font-custom tracking-wide sm:pt-20 text-3xl  sm:text-4xl  text-center sm:text-center "> PROJECTS</p>
 <p className="border-4 border-yellow-400  w-10  rounded-lg"></p>
@@ -24,7 +25,7 @@ function Projects() {
 <img className="sm:h-80 sm:w-full" src="./images/code.jpg" />
 <div className="sm:flex-col sm:text-left sm:space-y-8  space-y-8">
 <p className="font-custom text-xl  font-semibold text-center sm:text-left sm:text-2xl sm:font-bold font-custom">CODEYOGI-Clone</p>
-<P1>ToDo List App is a kind of app that generally used to maintain our day-to-day tasks or list everything that we have to do.</P1>
+<P1>It is a clone of <a href="https://app.codeyogi.io " target="_blank" className="underline text-blue-500">https://app.codeyogi.io</a> which i build by my using my various skills .</P1>
 <div>
 <a href="https://Assignment-33-Create-a-todo-app-SurenderSINGH8.codeyogiteam.repl.co" target="_blank"><Button>CHECK OUT!</Button></a>
 </div></div></div>
@@ -39,7 +40,7 @@ function Projects() {
 <a href="https://Assignment-34-Create-Ask-Jud-clone-SurenderSINGH8.codeyogiteam.repl.co" target="_blank"><Button>CHECK OUT!</Button></a>
 </div></div></div>
 < hr />
-</div>
+</div></div> 
   );
 }
 
