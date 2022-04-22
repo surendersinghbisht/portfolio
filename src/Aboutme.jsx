@@ -7,7 +7,7 @@ import {HashLink as Link} from 'react-router-hash-link';
 function Aboutme() {
   return (
     <div id='Aboutme'>
-<div className="p-4 pt-20  sm:px-60">
+<div className="p-4 pt-20 sm:pt-10  sm:px-60">
   <div className="flex flex-col items-center space-y-4">
 <p className="font-extrabold font-custom tracking-wide sm:pt-20 text-3xl  sm:text-4xl  text-center sm:text-center ">ABOUT ME</p>
 <p className="border-4 border-yellow-400  w-10  rounded-lg"></p></div>
