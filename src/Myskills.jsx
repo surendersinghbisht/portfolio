@@ -7,7 +7,7 @@ function Myskills() {
     <div>
 
 <div className="p-4 pt-16  sm:pt-0 sm:p-0 ">
-<p className="font-custom text-2xl  font-semibold text-left">My Skills</p>
+<p className="font-sans text-2xl  font-semibold text-left">My Skills</p>
 
 
 <div className="flex flex-wrap  pt-8">

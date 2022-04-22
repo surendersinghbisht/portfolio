@@ -7,7 +7,7 @@ function Social() {
 
 return(
     <div className="bg-black h-full p-4 sm:px- sm:py-8 pt-10" id='Social'>
-<h1 className="sm:ml-4 font-custom text-white font-bold text-2xl pt-10 tracking-widest relative ">CONTACT</h1>
+<h1 className="sm:ml-4 font-sans text-white font-bold text-2xl pt-10 tracking-widest relative ">CONTACT</h1>
 
 <div className="sm:flex sm:justify-between ">
 
@@ -19,8 +19,8 @@ return(
 </div>
 
 <div className="pt-10 space-y-4 sm:pt-0 sm:-mt-8  sm:max-w-md  sm:ml-80 ">
-<h1 className="text-white font-custom font-bold text-lg tracking-widest sm:text-2xl">SURENDER SINGH</h1>
-<p className="text-white font-cutom tracking-wide text-sm   ">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall project.</p>
+<h1 className="text-white font-sans font-bold text-lg tracking-widest sm:text-2xl">SURENDER SINGH</h1>
+<p className="text-white font-sans tracking-wide text-sm   ">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall project.</p>
 </div>
 
 </div>
@@ -28,7 +28,7 @@ return(
 <div className="pt-12">
 <hr className="text-white "/></div>
 
-<h1 className="font-custom trecking-wider text-white text-center pt-4">Made with <span className="flex justify-center"><AiOutlineHeart/></span>at CODEYOGI</h1>
+<h1 className="font-sans trecking-wider text-white text-center pt-4">Made with <span className="flex justify-center"><AiOutlineHeart/></span>at CODEYOGI</h1>
 </div>
 
 );
