@@ -28,7 +28,7 @@ function Projects() {
         <ProjectsList
           src="/images/atlas.jpg"
           details="World Atlas is an educational geography website . As the name would suggest, it offers perspectives on the world in the form of flags and details. I believe that it is an amazing planet that we share, and we are on a quest to prove it."
-          href="https://worldatlasbysurender.netlify.app/countries"
+          href="https://worldatlasbysurender.netlify.app/"
           heading="WORLD ATLAS"
         />
 
