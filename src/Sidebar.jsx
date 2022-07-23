@@ -1,20 +1,20 @@
 import React from "react";
 import { ImCancelCircle } from "react-icons/im";
-import { HashLink as Link } from "react-router-hash-link";
+import {HashLink as Link} from 'react-router-hash-link';
 
 function Sidebar(props) {
   return (
-    <div className="shadow-2xl absolute w-full top-2   right-0 n ">
-      <div className="sm:hidden   flex justify-end sticky">
+    <div className="shadow-2xl absolute w-full top-2 block  right-0  ">
+      <div className="sm:hidden  flex justify-end sticky">
         <aside aria-label="Sidebar ">
-          <div className="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800  ">
+          <div className="overflow-y-auto py-4 px-3 bg-whites rounded dark:bg-white  ">
             <ul className="space-y-2">
               <ImCancelCircle
-                className=" mt-2 font-semibold h-4  w-4 mr-2  sm:hidden  flex ml-80 mb-6 "
+                className=" mt-2 font-semibold h-4  w-4 mr-2  sm:hidden block  ml-80 mb-6 "
                 onClick={props.onCancel}
               ></ImCancelCircle>
               <li>
-                <a className="flex items-center  p-2 text-base font-sans text-gray-700 rounded-lg dark:text-white hover:text-yellow-500 dark:hover:bg-gray-700">
+                <a className="flex items-center  p-2 text-base font-sans text-gray-700 rounded-lg dark:text-black hover:text-yellow-500 ">
                   <Link to="#Home" smooth className=" font-bold ml-72">
                     HOME
                   </Link>
@@ -22,7 +22,7 @@ function Sidebar(props) {
               </li>
               <hr />
               <li>
-                <a className="flex items-center p-2 text-base font-sans text-gray-700 rounded-lg dark:text-white  dark:hover:bg-gray-700">
+                <a className="flex items-center p-2 text-base font-sans text-gray-700 rounded-lg dark:text-black ">
                   <Link
                     to="#Aboutme"
                     smooth
@@ -34,7 +34,7 @@ function Sidebar(props) {
               </li>
               <hr />
               <li>
-                <a className="flex items-center p-2 text-base font-sans text-gray-700  rounded-lg dark:text-white  dark:hover:bg-gray-700">
+                <a className="flex items-center p-2 text-base font-sans text-gray-700  rounded-lg dark:text-black ">
                   <Link
                     to="#Projects"
                     smooth
@@ -46,11 +46,11 @@ function Sidebar(props) {
               </li>
               <hr />
               <li>
-                <a className="flex items-center p-2 text-base font-sans text-gray-700 rounded-lg dark:text-white  dark:hover:bg-gray-700">
+                <a className="flex items-center p-2 text-base font-sans text-gray-700 rounded-lg dark:text-black  ">
                   <Link
                     to="#Social"
                     smooth
-                    className="flex-1 text-right whitespace-nowrap hover:text-yellow-400 font-bold "
+                    className="flex-1 text-right whitespace-nowrap hover:text-yellow-400  font-bold"
                   >
                     CONTACT
                   </Link>

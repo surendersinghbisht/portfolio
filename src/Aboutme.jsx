@@ -15,7 +15,7 @@ function Aboutme() {
 <P1 className=" sm:font-bold text-center sm:text-lg  ">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</P1>
 </div></div>
 
-<div className="sm:p-16 p-4 pt-8  pt-16 sm:pt-16">
+<div className="sm:p-16 p-4 pt-16 sm:pt-16">
 <div className="sm:flex sm:space-x-20 ">
   <div className="flex flex-col">
   <div className="space-y-4 sm:max-w-6xl ">
