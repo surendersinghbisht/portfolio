@@ -16,7 +16,7 @@ function Navbar() {
           
               <img
                 className="sm:w-12 sm:h-12 h-8 w-8 sm:ml-8  ml-2 rounded-full sm:mt-1"
-                src="./public/images/me.jpg"
+                src="/images/me.jpg"
               />
           
             <p className="font-sans sm:mt-3 sm:mb-3 sm:text-lg text-sm font-bold sm:font-extrabold mt-1  tracking-wider ">
