@@ -13,12 +13,11 @@ function Navbar() {
       <div className="sm:flex justify-between items-center">
         <div className="flex justify-between items-center">
           <div className=" sm:p-4 flex items-center sm:space-x-4 space-x-2  ">
-          
-              <img
-                className="sm:w-12 sm:h-12 h-8 w-8 sm:ml-8  ml-2 rounded-full sm:mt-1"
-                src="/images/me.jpg"
-              />
-          
+            <img
+              className="sm:w-12 sm:h-12 h-8 w-8 sm:ml-8  ml-2 rounded-full sm:mt-1"
+              src="/images/me.jpg"
+            />
+
             <p className="font-sans sm:mt-3 sm:mb-3 sm:text-lg text-sm font-bold sm:font-extrabold mt-1  tracking-wider ">
               SURENDER SINGH
             </p>
@@ -30,7 +29,7 @@ function Navbar() {
         </div>
 
         <div className=" sm:space-x-16 mr-16  hidden sm:block    ">
-          <div className=" space-x-10  ">
+          <div className=" space-x-10 ">
             <Link
               to="#Home"
               smooth

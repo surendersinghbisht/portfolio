@@ -41,7 +41,7 @@ function Projects() {
 
         <ProjectsList
           src="/images/show.png"
-          details="As the name would suggest, it offers you to find the deatails of your favorite shows. I used react and react saga to build this project."
+          details="As the name would suggest, it offers you to find the deatails of your favorite shows. I used redux and redux saga to build this project."
           href="https://showsfinderapp.netlify.app/"
           heading="SHOW FINDER"
         />
