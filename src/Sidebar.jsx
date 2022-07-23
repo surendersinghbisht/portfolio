@@ -7,14 +7,14 @@ function Sidebar(props) {
     <div className="shadow-2xl absolute w-full top-2 block  right-0  ">
       <div className="sm:hidden  flex justify-end sticky">
         <aside aria-label="Sidebar ">
-          <div className="overflow-y-auto py-4 px-3 bg-whites rounded dark:bg-white  ">
+          <div className="overflow-y-auto py-4 px-3 bg-white rounded ">
             <ul className="space-y-2">
               <ImCancelCircle
                 className=" mt-2 font-semibold h-4  w-4 mr-2  sm:hidden block  ml-80 mb-6 "
                 onClick={props.onCancel}
               ></ImCancelCircle>
               <li>
-                <a className="flex items-center  p-2 text-base font-sans text-gray-700 rounded-lg dark:text-black hover:text-yellow-500 ">
+                <a className="flex items-center  p-2 text-base font-sans text-gray-700 rounded-lg  hover:text-yellow-500 ">
                   <Link to="#Home" smooth className=" font-bold ml-72">
                     HOME
                   </Link>
@@ -22,7 +22,7 @@ function Sidebar(props) {
               </li>
               <hr />
               <li>
-                <a className="flex items-center p-2 text-base font-sans text-gray-700 rounded-lg dark:text-black ">
+                <a className="flex items-center p-2 text-base font-sans text-gray-700 rounded-lg  ">
                   <Link
                     to="#Aboutme"
                     smooth
@@ -34,7 +34,7 @@ function Sidebar(props) {
               </li>
               <hr />
               <li>
-                <a className="flex items-center p-2 text-base font-sans text-gray-700  rounded-lg dark:text-black ">
+                <a className="flex items-center p-2 text-base font-sans text-gray-700  rounded-lg ">
                   <Link
                     to="#Projects"
                     smooth
@@ -46,7 +46,7 @@ function Sidebar(props) {
               </li>
               <hr />
               <li>
-                <a className="flex items-center p-2 text-base font-sans text-gray-700 rounded-lg dark:text-black  ">
+                <a className="flex items-center p-2 text-base font-sans text-gray-700 rounded-lg  ">
                   <Link
                     to="#Social"
                     smooth
