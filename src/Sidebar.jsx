@@ -4,10 +4,10 @@ import {HashLink as Link} from 'react-router-hash-link';
 
 function Sidebar(props) {
   return (
-    <div className="shadow-2xl absolute w-full top-2 block  right-0  ">
+    <div className="shadow-2xl absolute w-full top-2 block  right-0 bg-white dark:bg-white ">
       <div className="sm:hidden  flex justify-end sticky">
         <aside aria-label="Sidebar ">
-          <div className="overflow-y-auto py-4 px-3 bg-white rounded ">
+          <div className="overflow-y-auto py-4 px-3  rounded ">
             <ul className="space-y-2">
               <ImCancelCircle
                 className=" mt-2 font-semibold h-4  w-4 mr-2  sm:hidden block  ml-80 mb-6 "
