@@ -1,15 +1,17 @@
-import React from "react";
-import {GiHamburgerMenu} from 'react-icons/gi';
-import {HashLink as Link } from 'react-router-hash-link';
+import { Dialog, Transition } from "@headlessui/react";
+import React, { Fragment } from "react";
+import { GiHamburgerMenu } from 'react-icons/gi';
+import { HashLink as Link } from 'react-router-hash-link';
 import Sidebar from "./Sidebar";
 
 function Navbar() {
 
-  const[sideBarShow, setSideBarShow] =React.useState(false);
+  const [sideBarShow, setSideBarShow] = React.useState(false);
 
 
   return (
-    <div className=" bg-white sticky top-0 drop-shadow-2xl sm:h-20 p-4 sm:p-0  ">
+    <>
+    <div className=" bg-white sticky  top-0 drop-shadow-2xl sm:h-20 p-4 sm:p-0 z-10  ">
       <div className="sm:flex justify-between items-center">
         <div className="flex justify-between items-center">
           <div className=" sm:p-4 flex items-center sm:space-x-4 space-x-2  ">
@@ -61,12 +63,28 @@ function Navbar() {
           </div>
         </div>
       </div>
-      {sideBarShow && (
-        <div>
-          <Sidebar onCancel={() => setSideBarShow(false)} />
-        </div>
-      )}
-    </div>
+     
+        
+      </div>
+      <div className="z-20 top-0 right-0 fixed">
+      <Transition show={sideBarShow} 
+          enter="transition-transform duration-500"
+          enterFrom=" -translate-y-full"
+          enterTo=" -translate-y-0"
+          leave="transition-transform duration-500"
+          leaveFrom="-translate-y-0"
+          leaveTo=" -translate-y-full"
+          >
+          {/* <Dialog open={sideBarShow} onClose={setSideBarShow}>
+            <Dialog.Overlay> */}
+              <Sidebar onCancel={() => setSideBarShow(false)} />
+            {/* </Dialog.Overlay>
+          
+          </Dialog> */}
+          </Transition>
+          </div>
+    </>
+  
   );
 }
 
