@@ -16,11 +16,13 @@ function Myskills() {
 <Skills>JavaScript</Skills>
 <Skills>TypeScript </Skills>
 <Skills>React</Skills>
+<Skills>Angular</Skills>
+<Skills>Express js</Skills>
+<Skills>Mongo DB</Skills>
 <Skills>Redux</Skills>
 <Skills>Redux Saga</Skills>
 <Skills>GIT</Skills>
-<Skills>Github</Skills>
-<Skills>Tailwind  css</Skills>
+<Skills>Tailwind css</Skills>
 <Skills>Responsive Design </Skills>
 </div></div>
 </div>

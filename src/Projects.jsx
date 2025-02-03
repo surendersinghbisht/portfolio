@@ -19,10 +19,9 @@ function Projects() {
 
         <ProjectsList
           src="/images/todo.jpg"
-          details=" ToDo List App is a kind of app that generally used to maintain our
-            day-to-day tasks or list everything that we have to do."
-          href="https://todoappbysurender.netlify.app/"
-          heading="TODO APP"
+          details=" Chess.com clone would involve building a website or app that replicates key features of Chess.com."
+          href="https://chess-com-clone-l6dm.onrender.com/"
+          heading="CHESS.COM CLONE"
         />
 
         <ProjectsList
