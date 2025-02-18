@@ -20,7 +20,7 @@ return(
 
 <div className="pt-10 space-y-4 sm:pt-0 sm:-mt-8  sm:max-w-md  sm:ml-80 ">
 <h1 className="text-white font-sans font-bold text-lg tracking-widest sm:text-2xl">SURENDER SINGH</h1>
-<p className="text-white font-sans tracking-wide text-sm   ">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall project.</p>
+<p className="text-white font-sans tracking-wide text-sm   ">A FullStack focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall project.</p>
 </div>
 
 </div>
