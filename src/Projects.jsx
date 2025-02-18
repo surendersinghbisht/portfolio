@@ -18,6 +18,13 @@ function Projects() {
         </P1>
 
         <ProjectsList
+          src="/images/jobportal.png"
+          details=" Hirrd, a full-stack job portal designed to streamline the hiring process! This project was built using cutting-edge technologies to provide a seamless experience for both recruiters and job seekers."
+          href="https://hirrd-one-nu.vercel.app/"
+          heading="HIRRD - job portal"
+        />
+        
+        <ProjectsList
           src="/images/todo.jpg"
           details=" Chess.com clone would involve building a website or app that replicates key features of Chess.com."
           href="https://chess-com-clone-l6dm.onrender.com/"
@@ -29,13 +36,6 @@ function Projects() {
           details="World Atlas is an educational geography website . As the name would suggest, it offers perspectives on the world in the form of flags and details. I believe that it is an amazing planet that we share, and we are on a quest to prove it."
           href="https://worldatlasbysurender.netlify.app/"
           heading="WORLD ATLAS"
-        />
-
-        <ProjectsList
-          src="/images/code.jpg"
-          details="It is a clone of website app.codeYogi.io which i made by using my various skills."
-          href=""
-          heading="CODEYOGI CLONE"
         />
 
         <ProjectsList

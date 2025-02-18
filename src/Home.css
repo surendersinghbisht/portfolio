@@ -1,0 +1,17 @@
+/* Home.css */
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adds space between the button and the arrow */
+  }
+  
+  .arrow-container a {
+    display: inline-block;
+  }
+  
+  .arrow-container .h-8 {
+    /* Adjust size of the arrow icon if needed */
+    font-size: 2rem;
+  }
+  

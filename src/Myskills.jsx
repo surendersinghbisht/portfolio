@@ -17,6 +17,7 @@ function Myskills() {
 <Skills>TypeScript </Skills>
 <Skills>React</Skills>
 <Skills>Angular</Skills>
+<Skills>Java</Skills>
 <Skills>Express js</Skills>
 <Skills>Mongo DB</Skills>
 <Skills>Redux</Skills>

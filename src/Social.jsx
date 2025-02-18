@@ -27,8 +27,8 @@ return(
 
 <div className="pt-12">
 <hr className="text-white "/></div>
-
-<h1 className="font-sans trecking-wider text-white text-center pt-4">Made with <span className="flex justify-center"><AiOutlineHeart/></span>at CODEYOGI</h1>
+{/* 
+<h1 className="font-sans trecking-wider text-white text-center pt-4">Made with <span className="flex justify-center"><AiOutlineHeart/></span>at CODEYOGI</h1> */}
 </div>
 
 );
